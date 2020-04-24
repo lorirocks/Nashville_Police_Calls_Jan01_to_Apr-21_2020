@@ -13,7 +13,7 @@ The original database included dates from Wed. Jan. 1, 2020 through Tuesday Apri
      Code used to identify day of week:  =CHOOSE(WEEKDAY(C2),"Sun","Mon","Tue","Wed","Thu","Fri","Sat")<br>
      Code used to identify week number, with weeks starting on Mondays* (Mon-Sun):  =WEEKNUM(C2,2)<br>
      * Weeks were ended on Sunday so that the entire weekend (Fri-Sat-Sun) was counted within one week)<br></p>
- <p>Excluded 75 calls that were geolocated in Arkansas, between 1/1 and 3/11. There must have been a system glitch that caused the wrong longitute/latitude to be captured in the system that was fixed starting March 12th. 
+ 
      
 
 
